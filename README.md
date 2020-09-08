@@ -1,4 +1,4 @@
-# test project1
+# test project with new feature
 Learning Git
 
 Hello!
