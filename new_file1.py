@@ -1,2 +1,2 @@
 import random
-random.randint(1, 22)
+random.randint(45, 333)
