@@ -33,3 +33,32 @@ l = [1, 2, 3]
 while l: #Пока список не пустой он будет True
     print(l.pop())    
 print(l)
+
+#range
+for i in range(2, 10, 2):
+    print(i)
+
+#For
+l = [1, 23, 13, 467, 50, 6]
+for item in l:
+    if item % 2 == 0:
+        print(item)
+    else:
+        print(item + 1)
+print(l)
+
+#С изменением значений нечетных. Работа с индексами
+l = [1, 23, 13, 467, 50, 6]
+for i in range(len(l)):
+    # print("index", i)
+    # print("value", l[i])
+    if l[i] % 2 == 1:
+        l[i] += 1
+print(l)
+
+#Break
+while True:
+    phrase = input("Enter a phrase without whitespaces ")
+    if phrase.count(" ") == 0
+        print(phrase)
+break
