@@ -59,6 +59,6 @@ print(l)
 #Break
 while True:
     phrase = input("Enter a phrase without whitespaces ")
-    if phrase.count(" ") == 0
+    if phrase.count(" ") == 0:
         print(phrase)
-break
+        break
