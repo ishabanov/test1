@@ -1,4 +1,4 @@
-#Exception
+# Exception
 s = input("Enter: ")
 i = 0
 try:
